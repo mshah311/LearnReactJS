@@ -6,8 +6,11 @@ import './App.css'
 import GetMaterialDetail_Parent from './Componet/AllFunctionComponent'
 import GetCountryDetail from './Componet/State'
 import Religion from './Componet/ReactHooks'
-import GetAnimalDetail2 from './Componet/event'
 import Animal from './Componet/event'
+import GetAnimalDetail2 from './Componet/event'
+import ConditionalFormating from './Componet/ConditionalFormating'
+import ListofCities from './Componet/List'
+import Browsers from './Forms/0330_1stForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -124,9 +127,13 @@ function App() {
         {/* <GetCountryDetail/> */}
         {/* <Religion/> */}
        
-        <Animal/>
+        {/* <Animal/> */}
         {/* <GetAnimalDetail2/> */}
         {/* <GetAnimalDetail2/> */}
+        {/* <GetAnimalDetail2/> */}
+        {/* <ConditionalFormating/> */}
+        {/* <ListofCities/> */}
+        <Browsers/>
     </>
   )
 }
