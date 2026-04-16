@@ -30,3 +30,5 @@ createRoot(document.getElementById('root')!).render(
     {/* <GetHomeDetial2 /> */}
   </StrictMode>,
 )
+
+

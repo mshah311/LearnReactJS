@@ -1,0 +1,10 @@
+/* 
+Another way to add style to application... Local by default
+Only available to the component which we import
+*/
+
+.MMSLabel{color:brown;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large;font-weight: 200;}
+
+/* KPI -- Threshould -- Green, yellow, or :Red */
+
+

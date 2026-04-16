@@ -1,0 +1,41 @@
+{
+  "CustomerData": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz"
+    },
+    {
+      "id": "hzSiRPtlTGM",
+      "name": "zz",
+      "username": "z",
+      "email": "sdf"
+    },
+    {
+      "id": "OAtikls3uGU",
+      "name": "qwe",
+      "username": "qwerq",
+      "email": "asdf"
+    },
+    {
+      "id": "1qrZMHncE6M",
+      "name": "qwe",
+      "username": "qwerq",
+      "email": "asdf"
+    },
+    {
+      "id": "dPuAMMCLtpw",
+      "name": "qwe",
+      "username": "qwerq",
+      "email": "asdf"
+    },
+    {
+      "id": "5FS9jfvtuSs",
+      "name": "111",
+      "username": "111",
+      "email": "1111"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

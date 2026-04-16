@@ -1,0 +1,8 @@
+ /* External CSS file can be used in multiple components
+ This is for now use in 0402_style.tsx file */
+
+.MMS_Para {color:aqua;font-size:medium;background-color: black; }
+.MMS_Button {color:aliceblue;font-size:medium;background-color:blue;border-radius:30%; }
+
+
+

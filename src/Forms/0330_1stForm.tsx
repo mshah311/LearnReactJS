@@ -14,6 +14,8 @@ const [formdata,setformdata] = useState({
 const [error,seterror] = useState<{[key: string]: string}>({});
 
 const Handle_onChange = (e) => {
+    // name can be anything BrowserID,BrowserName,BrowserVersion,BrowserCo
+    // value will be value of the input filed / text boxes of associated name.
     const {name,value}=e.target;
     setformdata({
         ...formdata,
@@ -57,7 +59,6 @@ const HandleSave = (e) => {
             BrowserID:"",BrowserName:"",BrowserVersion:"",BrowserCo:""
         });
     }
-
 }
     return(
 
@@ -104,7 +105,6 @@ const HandleSave = (e) => {
             <p> Bowser Co. is: {formdata.BrowserCo} </p>
 
             <button type="submit"> Save Form </button>
-
 
         </div>
         </form>

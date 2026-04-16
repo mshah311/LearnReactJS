@@ -11,6 +11,19 @@ import GetAnimalDetail2 from './Componet/event'
 import ConditionalFormating from './Componet/ConditionalFormating'
 import ListofCities from './Componet/List'
 import Browsers from './Forms/0330_1stForm'
+import WebSite from './Forms/0331_Route'
+import BookStoreRotes from './Forms/0401_BookStoreRoute'
+import StyleSetup from './Forms/0402_style'
+import UserfmAPI from './Forms/0403_API_calling'
+import TopApp from './Componet/0404_PropsDrilling/TopApp'
+import TopApp1 from './Componet/0404_contex_api/TopApp'
+import GetUserDetail from './Componet/0409_FetchData_API/FetchDataFmAPI'
+import GetUserDetailAxios from './Componet/0409_FetchData_API/AXIOS'
+import CustomerList from './Componet/0410_CRUD.tsx/crud'
+
+// import Book from './Forms/0401_Book'
+// import PageNotFound from './Forms/0401_pagenotfoud'
+// import BookStore from './Forms/0401_BookStore'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -133,10 +146,22 @@ function App() {
         {/* <GetAnimalDetail2/> */}
         {/* <ConditionalFormating/> */}
         {/* <ListofCities/> */}
-        <Browsers/>
+        {/* <Browsers/> */}
+        {/* <WebSite/> */}
+
+        {/* <Book/> */}
+        {/* <PageNotFound/> */}
+        {/* <BookStore/> */}
+        {/* <BookStoreRotes/> */}
+        {/* <StyleSetup/> */}
+        {/* <UserfmAPI/> */}
+        {/* <TopApp/> */}
+        {/* <TopApp1/> */}
+        {/* <GetUserDetail/> */}
+        {/* <GetUserDetailAxios/> */}
+        <CustomerList/>
     </>
   )
 }
 
 export default App
-
